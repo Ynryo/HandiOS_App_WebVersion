@@ -1,0 +1,110 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+}
+
+.main-container .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 15px;
+    box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.top .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top h1 {
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.rounded_type_name {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.rounded_type_name.handi {
+    background-color: rgba(0, 120, 255, 0.25);
+    color: rgb(0, 120, 255);
+}
+
+.rounded_type_name.nurse {
+    background-color: rgba(190, 0, 0, 0.25);
+    color: rgb(190, 0, 0);
+}
+
+.rounded_type_name.senior {
+    background-color: rgba(24, 128, 56, 0.25);
+    color: rgb(24 128 56);
+}
+
+.rounded_type_name.family {
+    background-color: rgba(216, 0, 180, 0.25);
+    color: rgb(216, 0, 180);
+}
+
+.rounded_type_name h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.top span.material-symbols-rounded.panel-top {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 28;
+  margin: 0 15px;
+}
+
+.top span.material-symbols-rounded.panel-top {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 28;
+  margin: 0 15px;
+}
+
+@media all and (max-width: 800px) {
+    .main-container .top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top .left {
+        flex-direction: column;
+    }
+
+    .top .left h1 {
+        margin-bottom: 10px;
+    }
+
+    .top span.panel-top {
+        display: none;
+    }
+
+    .top .button {
+        display: none;
+    }
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+}

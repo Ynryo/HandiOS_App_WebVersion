@@ -1,0 +1,86 @@
+.main:has(.sidebar) {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 75px;
+    height: 100vh;
+    box-shadow: 0 0 15px 7.5px rgba(0, 0, 0, 0.2);
+    /* border-radius: 0 35px 35px 0; */
+    padding: 10px;
+    z-index: 2;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
+.sidebar .tabs a {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    transition: all 500ms ease-in-out;
+}
+
+.sidebar .tabs a.active {
+    width: 150%;
+    aspect-ratio: 1.5 / 1;
+}
+
+.sidebar .account-picture {
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .account-picture.default {
+    background-color: #cbcbcb80;
+}
+
+.sidebar .account-picture.default span {
+    font-size: 32px;
+}
+
+.sidebar .account-modal {
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px 7.5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: fixed;
+    bottom: 75px;
+    left: 10px;
+    display: none;
+    flex-direction: column;
+}
+
+.sidebar .rounded_type_name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar .account-modal>*:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 500px) {
+    .sidebar {
+        display: none;
+    }
+}

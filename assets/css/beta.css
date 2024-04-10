@@ -1,0 +1,16 @@
+.main:has(div.beta) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media all and (max-width: 500px) {
+    .main:has(div.beta) {
+        flex-direction: column;
+    }
+
+    .main div.beta {
+        margin-bottom: 20px;
+    }
+}

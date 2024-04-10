@@ -1,0 +1,78 @@
+body,html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.plakat{
+    position: relative;
+    display: flex;
+    height: 70px;
+    filter: invert();
+    top: 5px;
+    left: 10px;
+}
+.logout{
+    position: relative;
+    display: flex;
+    background-color: #2f7cd3;
+    outline: solid white;
+    top: 5px;
+    padding: 10px 25px;
+    right: 20px;
+    border-radius: 50px;
+    transition: 330ms;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.logout:hover{
+    transform: scale(1.1);
+}
+.Santé button:hover{
+    cursor: pointer;
+}
+.tpmp{
+    height: 200px;
+}
+.block{
+    margin-top: -5px;
+    width: 100%;
+}
+.vague{
+    z-index: -1;
+}
+section.about{
+    display: flex;
+    background-color: #2f7cd3;
+    height: 91px;
+    width: 100%;
+}
+.vague-top{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: first baseline;
+    z-index: -1;
+}
+.ttp{
+    margin-top: -70px;
+    z-index: -2;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
