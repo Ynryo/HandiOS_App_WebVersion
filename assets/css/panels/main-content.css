@@ -61,21 +61,21 @@
 }
 
 .top span.material-symbols-rounded.panel-top {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 28;
-  margin: 0 15px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 28;
+    margin: 0 15px;
 }
 
 .top span.material-symbols-rounded.panel-top {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 28;
-  margin: 0 15px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 28;
+    margin: 0 15px;
 }
 
 @media all and (max-width: 800px) {
@@ -106,5 +106,39 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    grid-template-areas: "bpm sp02"
+        "sleep sleep"
+        "medication medication";
     padding: 20px;
+}
+
+.frame {
+    background-color: #fff;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15px 7.5px rgba(0, 0, 0, 0.2);
+}
+
+.frame h2 {
+    font-size: 20px;
+}
+
+.bpm {
+    grid-area: bpm;
+}
+
+.sp02 {
+    grid-area: sp02;
+}
+
+.sleep {
+    grid-area: sleep;
+}
+
+.medication {
+    grid-area: medication;
 }
