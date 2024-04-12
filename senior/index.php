@@ -8,12 +8,11 @@
     <?php include(dirname(__FILE__, 2) . "/assets/src/header.php") ?>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/buttons.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/beta.css">
 </head>
 
 <body>
     <div class="main">
-        <?php include(dirname(__FILE__, 2) . "/assets/src/beta-page.php") ?>
+        <?php include(dirname(__FILE__, 2) . "/assets/src/panels-assets/tabs.php") ?>
     </div>
 </body>
 

@@ -1,4 +1,4 @@
-.main:has(div.beta) {
+/* .main:has(div.beta) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,5 +12,33 @@
 
     .main div.beta {
         margin-bottom: 20px;
+    }
+} */
+
+/* nouveaux error pages */
+.main.beta {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main.beta h1 {
+    font-size: 52px;
+}
+
+.main.beta p {
+    margin: 10px 0;
+}
+
+@media all and (max-width: 350px) {
+    .main.beta {
+        padding: 5%;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .main.beta {
+        padding: 0;
     }
 }

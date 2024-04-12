@@ -12,7 +12,7 @@
 
 <body>
     <div class="main">
-        <?php include(dirname(__FILE__, 2) . "/assets/src/beta-page.php") ?>
+        <?php include(dirname(__FILE__, 2) . "/assets/src/panels-assets/tabs.php") ?>
     </div>
 </body>
 
