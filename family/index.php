@@ -35,6 +35,20 @@
                 </div>
                 <div class="frame sleep">
                     <h2>Sommeil</h2>
+                    <div class="frame-content">
+                        <div class="light-sleep">
+                            <h3>04h24</h3>
+                            <h4>Sommeil léger</h4>
+                        </div>
+                        <div class="total-sleep-time">
+                            <h3>08h54</h3>
+                            <h4>Temps de sommeil total</h4>
+                        </div>
+                        <div class="deep-sleep">
+                            <h3>01h43</h3>
+                            <h4>Sommeil léger</h4>
+                        </div>
+                    </div>
                 </div>
                 <div class="frame medication">
                     <h2>Médicaments</h2>
