@@ -1,0 +1,36 @@
+.sleep {
+    grid-area: sleep;
+}
+
+.frame-content>div h3 {
+    letter-spacing: 2px;
+}
+
+.frame-content div.total-sleep-time {
+    width: 250px;
+    text-align: center;
+}
+
+.frame-content div.total-sleep-time h3 {
+    font-size: 50px;
+}
+
+.frame-content div.total-sleep-time h4 {
+    font-size: 20px;
+}
+
+.frame-content .rem-sleep {
+    color: #7ec4ff;
+}
+
+.frame-content .light-sleep {
+    color: #3f8dff;
+}
+
+.frame-content .deep-sleep {
+    color: #154ba6;
+}
+
+.frame-content .awake {
+    color: #f33f6c;
+}
