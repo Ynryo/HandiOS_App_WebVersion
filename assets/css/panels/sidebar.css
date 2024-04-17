@@ -42,6 +42,15 @@
     aspect-ratio: 1.5 / 1;
 }
 
+/* .sidebar .tabs a:hover:not(.active) {
+    width: 200%;
+    aspect-ratio: 2 / 1;
+}
+
+.sidebar .tabs a:hover:not(.active)::after {
+    content: ;
+} */
+
 .sidebar .account-picture {
     border-radius: 10px;
     aspect-ratio: 1 / 1;

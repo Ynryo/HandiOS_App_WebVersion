@@ -1,3 +1,7 @@
+.medication {
+    grid-area: medication;
+}
+
 .medication .frame-content {
     justify-content: center;
 }
