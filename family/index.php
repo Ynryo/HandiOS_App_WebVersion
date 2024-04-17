@@ -1,18 +1,18 @@
-<?php include (dirname(__FILE__, 2) . "/assets/src/session.php") ?>
+<?php include(dirname(__FILE__, 2) . "/assets/src/session.php") ?>
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
     <title>Handi'OS</title>
     <meta property="og:site_name" content="Handi'OS">
-    <?php include (dirname(__FILE__, 2) . "/assets/src/header.php") ?>
+    <?php include(dirname(__FILE__, 2) . "/assets/src/header.php") ?>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/buttons.css">
 </head>
 
 <body>
     <div class="main">
-        <?php include (dirname(__FILE__, 2) . "/assets/src/panels-assets/tabs.php") ?>
+        <?php include(dirname(__FILE__, 2) . "/assets/src/panels-assets/tabs.php") ?>
         <div class="main-container">
             <div class="top">
                 <div class="left">
@@ -30,32 +30,42 @@
             <div class="main-content">
                 <div class="frame bpm">
                     <h2>Battement par minute (BPM)</h2>
+                    <div class="frame-content">
+                        <canvas id="bpmChart"></canvas>
+                    </div>
                 </div>
                 <div class="frame sp02">
                     <h2>Taux d'oxygène dans le sang (Sp02)</h2>
-                </div>
+                    <div class="frame-content">
+                        <canvas id="sp02Chart"></canvas>
+                    </div>
+</div>
                 <div class="frame sleep">
                     <h2>Sommeil</h2>
-                    <div class="frame-content content-rows">
-                        <div class="rem-sleep">
-                            <h3>01h04</h3>
-                            <h4>Sommeil paradoxal</h4>
+                    <div class="frame-content content-column">
+                        <div class="content-rows">
+                            <div class="total-sleep-time">
+                                <h3>06h02</h3>
+                                <h4>Temps de sommeil total</h4>
+                            </div>
                         </div>
-                        <div class="light-sleep">
-                            <h3>03h49</h3>
-                            <h4>Sommeil léger</h4>
-                        </div>
-                        <div class="total-sleep-time">
-                            <h3>06h02</h3>
-                            <h4>Temps de sommeil total</h4>
-                        </div>
-                        <div class="deep-sleep">
-                            <h3>01h09</h3>
-                            <h4>Sommeil profond</h4>
-                        </div>
-                        <div class="awake">
-                            <h3>00h59</h3>
-                            <h4>Eveillé</h4>
+                        <div class="content-rows">
+                            <div class="awake">
+                                <h3>00h59</h3>
+                                <h4>Eveillé</h4>
+                            </div>
+                            <div class="rem-sleep">
+                                <h3>01h04</h3>
+                                <h4>Sommeil paradoxal</h4>
+                            </div>
+                            <div class="light-sleep">
+                                <h3>03h49</h3>
+                                <h4>Sommeil léger</h4>
+                            </div>
+                            <div class="deep-sleep">
+                                <h3>01h09</h3>
+                                <h4>Sommeil profond</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,6 +110,7 @@
                     </div>
                 </div>
             </div>
+            <script src="/assets/js/charts.js"></script>
         </div>
     </div>
 </body>
