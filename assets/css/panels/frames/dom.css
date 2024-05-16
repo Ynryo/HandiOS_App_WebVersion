@@ -1,0 +1,59 @@
+.dom h4 {
+    font-weight: 500;
+}
+
+.dom p {
+    font-weight: 400;
+}
+
+.dom .frame {
+    align-items: flex-start; 
+}
+
+.dom [item-type="door"] .dom-item-icon {
+    background-color: rgba(24, 128, 56, 0.25);
+    color: rgb(24 128 56);
+}
+
+.dom [item-type="blind"] .dom-item-icon {
+    background-color: rgba(0, 120, 255, 0.25);
+    color: rgb(0, 120, 255);
+}
+
+.dom [item-type="light"] .dom-item-icon {
+    background-color: rgba(255, 215, 59, 0.25);
+    color: rgb(255,215,59);
+}
+
+.dom .item-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.dom .item-desc {
+    margin-left: 10px;
+}
+
+.dom .dom-item-icon {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.dom .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dom .button {
+    width: 100%;
+}
+
+.dom .button:not(:first-child) {
+    margin-left: 10px;
+}

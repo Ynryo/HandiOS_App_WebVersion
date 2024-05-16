@@ -104,16 +104,26 @@
 
 .main-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    grid-template-areas: "bpm sp02"
-        "sleep sleep"
-        "medication medication";
     padding: 20px;
 }
 
+.main-content.family {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "bpm sp02"
+        "sleep sleep"
+        "medication medication";
+}
+
+.main-content.dom {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "bpm sp02"
+        "sleep sleep"
+        "medication medication";
+}
+
 @media all and (max-width: 1100px) {
-    .main-content {
+    .main-content.family {
         grid-template-columns: 1fr;
         grid-template-areas: "bpm"
             "sp02"
