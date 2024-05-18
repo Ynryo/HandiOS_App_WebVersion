@@ -16,9 +16,66 @@
         <div class="main-container">
             <?php include (dirname(__FILE__, 3) . "/assets/src/panels-assets/top.php") ?>
             <div class="main-content dom">
-                <div class="frame" item-type="door">
+                <div class="item-group-type" items-type="lights">
+                    <div class="frame">
+                        <div class="item-top">
+                            <div class="item-icon active">
+                                <span class="material-symbols-rounded">
+                                    light_group
+                                </span>
+                            </div>
+                            <div class="item-desc">
+                                <h4>Lumières</h4>
+                                <p>Allumées</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-group">
+                        <div class="frame">
+                            <div class="item-top">
+                                <div class="item-icon active">
+                                    <span class="material-symbols-rounded">
+                                        lightbulb
+                                    </span>
+                                </div>
+                                <div class="item-desc">
+                                    <h4>Lumière du salon</h4>
+                                    <p>Allumée</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        light_off
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="frame">
+                            <div class="item-top">
+                                <div class="item-icon">
+                                    <span class="material-symbols-rounded">
+                                        lightbulb
+                                    </span>
+                                </div>
+                                <div class="item-desc">
+                                    <h4>Lumière de la chambre</h4>
+                                    <p>Eteinte</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        lightbulb
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame" items-type="doors">
                     <div class="item-top">
-                        <div class="dom-item-icon">
+                        <div class="item-icon active">
                             <span class="material-symbols-rounded">
                                 lock
                             </span>
@@ -36,16 +93,16 @@
                         </a>
                     </div>
                 </div>
-                <div class="frame" item-type="blind">
+                <div class="frame" items-type="blinds">
                     <div class="item-top">
-                        <div class="dom-item-icon">
+                        <div class="item-icon active">
                             <span class="material-symbols-rounded">
                                 roller_shades
                             </span>
                         </div>
                         <div class="item-desc">
                             <h4>Volet du salon</h4>
-                            <p>Ouvert</p>
+                            <p>Ouverture...</p>
                         </div>
                     </div>
                     <div class="buttons">
@@ -66,28 +123,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="frame" item-type="light">
-                    <div class="item-top">
-                        <div class="dom-item-icon">
-                            <span class="material-symbols-rounded">
-                                lightbulb
-                            </span>
-                        </div>
-                        <div class="item-desc">
-                            <h4>Lumière du salon</h4>
-                            <p>Allumée</p>
-                        </div>
-                    </div>
-                    <div class="buttons">
-                        <a href="" class="button">
-                            <span class="material-symbols-rounded">
-                                light_off
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="frame" item-type="camera">
-                    <video src="/assets/cameras-rushs/living-room.mp4" ></video>
+                <div class="frame" items-type="camera">
+                    <video src="/assets/cameras-rushs/living-room.mp4"></video>
                 </div>
             </div>
         </div>
