@@ -16,6 +16,7 @@
         <div class="main-container">
             <?php include (dirname(__FILE__, 3) . "/assets/src/panels-assets/top.php") ?>
             <div class="main-content dom">
+                <!-- LUMIERES -->
                 <div class="item-group-type" items-type="lights">
                     <div class="frame">
                         <div class="item-top">
@@ -25,8 +26,8 @@
                                 </span>
                             </div>
                             <div class="item-desc">
-                                <h4>Lumières</h4>
-                                <p>Allumées</p>
+                                <h4>Toutes les lumières</h4>
+                                <p>Allumée(s)</p>
                             </div>
                         </div>
                     </div>
@@ -71,60 +72,148 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="frame">
+                            <div class="item-top">
+                                <div class="item-icon">
+                                    <span class="material-symbols-rounded">
+                                        lightbulb
+                                    </span>
+                                </div>
+                                <div class="item-desc">
+                                    <h4>Lumière de l'entrée</h4>
+                                    <p>Eteinte</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        lightbulb
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="frame" items-type="doors">
-                    <div class="item-top">
-                        <div class="item-icon active">
-                            <span class="material-symbols-rounded">
-                                lock
-                            </span>
-                        </div>
-                        <div class="item-desc">
-                            <h4>Porte d'entrée</h4>
-                            <p>Verrouillée</p>
-                        </div>
-                    </div>
-                    <div class="buttons">
-                        <a href="" class="button">
-                            <span class="material-symbols-rounded">
-                                lock_open
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <div class="frame" items-type="blinds">
-                    <div class="item-top">
-                        <div class="item-icon active">
-                            <span class="material-symbols-rounded">
-                                roller_shades
-                            </span>
-                        </div>
-                        <div class="item-desc">
-                            <h4>Volet du salon</h4>
-                            <p>Ouverture...</p>
+                <!-- PORTES (SERRURES) -->
+                <div class="item-group-type" items-type="doors">
+                    <div class="frame">
+                        <div class="item-top">
+                            <div class="item-icon active">
+                                <span class="material-symbols-rounded">
+                                    lock
+                                </span>
+                            </div>
+                            <div class="item-desc">
+                                <h4>Toutes les serrures</h4>
+                                <p>Verrouillé(s)</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="buttons">
-                        <a href="" class="button">
-                            <span class="material-symbols-rounded">
-                                arrow_upward
-                            </span>
-                        </a>
-                        <a href="" class="button">
-                            <span class="material-symbols-rounded">
-                                pause
-                            </span>
-                        </a>
-                        <a href="" class="button">
-                            <span class="material-symbols-rounded">
-                                arrow_downward
-                            </span>
-                        </a>
+                    <div class="items-group">
+                        <div class="frame">
+                            <div class="item-top">
+                                <div class="item-icon active">
+                                    <span class="material-symbols-rounded">
+                                        lock
+                                    </span>
+                                </div>
+                                <div class="item-desc">
+                                    <h4>Porte d'entrée</h4>
+                                    <p>Verrouillée</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        lock_open
+                                    </span>
+                                </a>
+                                <a href="" class="button small" title="Programmer l'action">
+                                    <span class="material-symbols-rounded">
+                                        schedule
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="frame" items-type="camera">
-                    <video src="/assets/cameras-rushs/living-room.mp4"></video>
+                <!-- VOLETS -->
+                <div class="item-group-type" items-type="blinds">
+                    <div class="frame">
+                        <div class="item-top">
+                            <div class="item-icon active">
+                                <span class="material-symbols-rounded">
+                                    roller_shades
+                                </span>
+                            </div>
+                            <div class="item-desc">
+                                <h4>Tous les volets</h4>
+                                <p>Ouvert(s)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-group">
+                        <div class="frame">
+                            <div class="item-top">
+                                <div class="item-icon active">
+                                    <span class="material-symbols-rounded">
+                                        roller_shades
+                                    </span>
+                                </div>
+                                <div class="item-desc">
+                                    <h4>Volet du salon</h4>
+                                    <p>Ouverture...</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        arrow_upward
+                                    </span>
+                                </a>
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        pause
+                                    </span>
+                                </a>
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        arrow_downward
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="frame">
+                            <div class="item-top">
+                                <div class="item-icon active">
+                                    <span class="material-symbols-rounded">
+                                        roller_shades
+                                    </span>
+                                </div>
+                                <div class="item-desc">
+                                    <h4>Volet de la chambre</h4>
+                                    <p>Ouvert</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        arrow_upward
+                                    </span>
+                                </a>
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        pause
+                                    </span>
+                                </a>
+                                <a href="" class="button">
+                                    <span class="material-symbols-rounded">
+                                        arrow_downward
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

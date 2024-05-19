@@ -15,7 +15,7 @@
 /* icons colors for items groups and objects*/
 .dom .item-icon {
     background-color: rgba(111, 111, 111, 0.25);
-    color: rgb(111,111,111);
+    color: rgb(111, 111, 111);
 }
 
 .dom [items-type="doors"] .item-icon.active {
@@ -30,7 +30,7 @@
 
 .dom [items-type="lights"] .item-icon.active {
     background-color: rgba(255, 215, 59, 0.25);
-    color: rgb(255,215,59);
+    color: rgb(255, 215, 59);
 }
 
 .dom .item-top {
@@ -56,10 +56,11 @@
 .dom .items-group {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .dom .items-group .frame {
-    width: 100%;
+    width: calc(50% - 10px);
 }
 
 /* maitres de caté */
@@ -69,7 +70,7 @@
     /* align-items: flex-start; */
 }
 
-.dom .item-group-type > .frame .item-top {
+.dom .item-group-type>.frame .item-top {
     padding: 0;
 }
 
@@ -86,4 +87,26 @@
 
 .dom .button:not(:first-child) {
     margin-left: 10px;
+}
+
+.dom .button.small {
+    width: auto;
+    padding: 15px;
+    aspect-ratio: 1 / 1;
+}
+
+@media all and (max-width: 1500px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .dom .items-group {
+        flex-direction: column;
+    }
+
+    .dom .items-group .frame {
+        width: calc(100% - 10px);
+    }
 }

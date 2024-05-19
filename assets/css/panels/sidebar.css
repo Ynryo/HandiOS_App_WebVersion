@@ -88,8 +88,8 @@
     margin-bottom: 10px;
 }
 
-@media all and (max-width: 500px) {
+/* @media all and (max-width: 500px) {
     .sidebar {
-        /* display: none; */
+        display: none;
     }
-}
+} */

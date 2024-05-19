@@ -108,15 +108,11 @@
     padding: 20px;
 }
 
-.main-content.family {
+.main-content {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "bpm sp02"
-        "sleep sleep"
-        "medication medication";
 }
 
-.main-content.dom {
-    grid-template-columns: repeat(2, 1fr);
+.main-content.family {
     grid-template-areas: "bpm sp02"
         "sleep sleep"
         "medication medication";
