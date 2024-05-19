@@ -16,7 +16,17 @@
         <div class="main-container">
             <?php include (dirname(__FILE__, 3) . "/assets/src/panels-assets/top.php") ?>
             <div class="main-content security">
-
+                <div class="cam-group">
+                    <h2>Salle à manger</h2>
+                    <video src="/assets/videos/cam-rushs-living-room.mp4" type="video/mp4" muted="muted" loop="loop" autoplay="autoplay" ></video>
+                </div>
+                <div class="cam-group">
+                    <h2>Porte d'entrée</h2>
+                    <video src="/assets/videos/cam-rushs-doorbell.mp4" type="video/mp4" muted="muted" loop="loop" autoplay="autoplay" ></video>
+                </div>
+                <div class="cam-group">
+                    <h2>Cave</h2>
+                    <video src="/assets/videos/cam-rushs-cellar.mp4" type="video/mp4" muted="muted" loop="loop" autoplay="autoplay" ></video>
             </div>
         </div>
     </div>

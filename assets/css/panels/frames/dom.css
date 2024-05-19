@@ -70,6 +70,10 @@
     /* align-items: flex-start; */
 }
 
+.dom .item-group-type>.frame {
+    flex-direction: row;
+}
+
 .dom .item-group-type>.frame .item-top {
     padding: 0;
 }

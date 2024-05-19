@@ -30,6 +30,11 @@
                                 <p>Allumée(s)</p>
                             </div>
                         </div>
+                        <!-- <a href="" class="button small" title="Programmer l'action">
+                            <span class="material-symbols-rounded">
+                                schedule
+                            </span>
+                        </a> -->
                     </div>
                     <div class="items-group">
                         <div class="frame">
