@@ -13,6 +13,12 @@
 <body>
     <div class="main">
         <?php include(dirname(__FILE__, 3) . "/assets/src/panels-assets/tabs.php") ?>
+        <div class="main-container">
+            <?php include (dirname(__FILE__, 3) . "/assets/src/panels-assets/top.php") ?>
+            <div class="main-content param">
+
+            </div>
+        </div>
     </div>
 </body>
 
