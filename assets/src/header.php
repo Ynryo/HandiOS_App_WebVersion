@@ -15,6 +15,7 @@ if ((str_contains($_SERVER["REQUEST_URI"], "/family/") || str_contains($_SERVER[
     <link rel=\"stylesheet\" href=\"/assets/css/panels/frames/medication.css\">
     <link rel=\"stylesheet\" href=\"/assets/css/panels/frames/dom.css\">
     <link rel=\"stylesheet\" href=\"/assets/css/panels/frames/security.css\">
+    <link rel=\"stylesheet\" href=\"/assets/css/panels/frames/settings.css\">
     <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200\" />
     <script src=\"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js\"></script>";
 } else {

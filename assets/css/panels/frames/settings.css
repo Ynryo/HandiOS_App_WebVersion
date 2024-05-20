@@ -1,0 +1,23 @@
+:root:has(.param):not(.default-switches) {
+    /* --md-sys-color-primary: red;
+    --md-sys-color-secondary: blue; */
+    /* --md-switch-handle-color: red;
+    --md-switch-handle-shape: ;
+    --md-switch-track-color: blue;
+    --md-switch-track-shape: ;
+    --md-switch-selected-handle-color: yellow;
+    --md-switch-selected-track-color: green; */
+    --md-sys-color-primary: #2f7cd3;
+    --md-sys-color-secondary: #1f46c5;
+    --md-sys-color-on-primary: #fff;
+    --md-sys-color-outline: #6f7979;
+    --md-sys-color-surface-container-highest: #dde4e3;
+    --md-switch-selected-icon-color: var(--md-sys-color-primary);
+    --md-switch-selected-hover-icon-color: var(--md-sys-color-secondary);
+    --md-switch-selected-handle-color: var(--md-sys-color-on-primary);
+    --md-switch-selected-hover-handle-color: #ccc;
+    --md-switch-selected-pressed-handle-color: #ccc;
+    --md-switch-selected-focus-handle-color: #fff;
+    --md-switch-selected-focus-icon-color: var(--md-sys-color-primary);
+    --md-switch-selected-pressed-icon-color: var(--md-sys-color-secondary);
+  }
